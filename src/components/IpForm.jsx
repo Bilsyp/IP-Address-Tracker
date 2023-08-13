@@ -126,7 +126,7 @@ const IpForm = ({ setLocation }) => {
         ) : (
           <div className='box-info hover:opacity-40 cursor-pointer  gap-3 text-center lg:text-left rounded-md w-[80%] mx-auto mt-8 grid grid-cols-1 lg:grid-cols-4 p-6 delay-500 duration-500 transition bg-white shadow-xl'>
             <Box title={"IP Address"} value={data.ip} border={true} />
-            <Box title={"Loacation"} value={data.location} border={true} />
+            <Box title={"Location"} value={data.location} border={true} />
             <Box title={"TimeZone"} value={data.timezone} border={true} />
             <Box title={"ISP"} value={data.isp} />
           </div>
